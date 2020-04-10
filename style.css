@@ -1,0 +1,329 @@
+body{
+    background-color:white;
+}
+
+.container{
+    width:1000px;
+    margin:auto
+}
+
+/*start the header*/
+.header .navbar{
+    overflow:hidden
+}
+.header .navbar img{
+    width:120px;
+    height:60px;
+    float:left
+}
+.header .navbar ul{
+    list-style:none;
+    float:left;
+    overflow:hidden;
+    color:#39526c
+}
+.header .navbar ul li{
+    float:left;
+    margin-top:6px;
+    margin-right:40px
+}
+.header .navbar button{
+    float:right;
+    background-color:#fff;
+    border:3px #fff;
+    margin-top:13px;
+    margin-right:10px;
+    padding:6px 12px;
+    border-radius:5px;
+    color:#39526c
+}
+.header .navbar .thecolor{
+    float:right;
+    background-color:#1087d9;
+    border:3px #fff;
+    margin-top:13px;
+    margin-right:10px;
+    padding:6px 12px;
+    border-radius:5px;
+    color:#fff
+}
+/*end the header*/
+
+/*start the customers*/
+.customers{
+    overflow:hidden;
+}
+.customers .info{
+    width:50%;
+    float:left;
+}
+.customers .info h1{
+    width:300px;
+    color:#071e57;
+    margin-top:100px
+}
+.customers .info p{
+    color:#39526c;
+    line-height:1.6;
+    font-size:20px
+}
+.customers .info .thebutton{
+    background-color:#1087d9;
+    border:1px #999;
+    color:#fff;
+    padding:10px 25px;
+    margin-right:15px;
+    border-radius:5px;
+    margin-top:15px
+}
+.customers .info button{
+    background-color:#fff;
+    border:1px solid #c3ccd4;
+    color:#1087d9;
+    padding:10px 22px;
+    margin-right:15px;
+    border-radius:5px;
+    margin-top:15px;
+    font-weight:bold
+}
+.customers .image{
+    float:left;
+    width:50%;
+}
+.customers .image img{
+    width:410px;
+    border-radius:30px;
+    height:600px;
+    padding-left:20px;
+}
+/*end the customers*/
+
+/*start the trust*/
+.trust{
+    overflow:hidden;
+    margin-top:120px;
+}
+.trust .opinion{
+    float:left;
+    width:50%;
+    border:5px solid #fff;
+    box-shadow:7px -7px 30px #c3ccd4;
+}
+.trust .opinion img{
+    width:500px;
+    border-radius:20px
+}
+.trust .opinion .logo{
+    width:80px;
+    border-radius:100px;
+    border:5px solid #fff;
+    box-shadow:7px 7px 30px #c3ccd4;
+    margin-left:40px
+}
+.trust .opinion p{
+    margin-top:40px;
+    padding-left:40px;
+    font:italic bold 17px/1.8 arial tahoma;
+    color:#445059
+}
+.trust .opinion .myp{
+    padding-left:40px;
+    color:#8d9aa7;
+    margin:0;
+}
+.trust .opinion .myp span{
+    color:#42525f
+}
+.trust .opinion ul{
+    text-align:center;
+    padding-left:0px;
+    margin-top:30px;
+}
+.trust .opinion ul li{
+    display:inline-block;
+    width:11px;
+    height:11px;
+    border:2px solid #e5e9ec;
+    cursor:pointer;
+    border-radius:50%
+}
+.trust .opinion ul li.active,
+.trust .opinion ul li:hover{
+    background-color:#818aec
+}
+.trust .info{
+    float:left;
+    padding-left:80px
+}
+.trust .info h1{
+    color:#071e57;
+    padding-top:50px
+}
+.trust .info button{
+    background-color:#fff;
+    border:1px solid #c3ccd4;
+    color:#1087d9;
+    padding:10px 22px;
+    margin-right:15px;
+    border-radius:5px;
+    margin-top:6px;
+    margin-bottom:50px;
+    font-weight:bold
+}
+/*end the trust*/
+
+/*start our people*/
+.our-people{
+    overflow:hidden;
+    margin-top:90px;
+}
+.our-people .people{
+    text-align:center;
+    margin-bottom:60px
+}
+.our-people .people h2{
+    color:#071e57;
+}
+.our-people .people p{
+    color:#74a2bf;
+    line-height:1.6;
+    font-size:20px
+}
+.our-people .skills{
+    width:50%;
+    float:left;
+}
+.our-people .skills .content{
+    float:left;
+    overflow:hidden;
+    min-height:100%;
+}
+.our-people .skills .content .logo{
+    width:15%;
+    float:left;
+    margin-right:10%;
+    margin-top:10px
+}
+.our-people .skills .content .logo img{
+    max-width:110px;
+}
+.our-people .skills .content .text{
+    float:left;
+    width:70%;
+    margin-right:5%
+}
+.our-people .skills .content .text h2{
+    color:#1096e2;
+}
+.our-people .skills .content .text p{
+    color:#748494;
+    line-height:1.5;
+    font-size:18px
+}
+.our-people .image img{
+    width:500px
+}
+/*start our people*/
+
+/*start the pricing*/
+.the-price{
+    text-align:center;
+    overflow:hidden;
+    margin-top:70px
+}
+.the-price .price h1{
+    color:#071e57
+}
+.the-price .price p{
+    color:#7484a1;
+    font-size:19px;
+    line-height:1.6
+}
+.the-price .price p span{
+    color:#1087d8
+}
+.the-price .price .mybutton{
+    background-color:#1087d8;
+    color:#fff;
+    border:1px #999;
+    border-radius:5px;
+    padding:13px 25px;
+    margin-right:15px;
+    margin-top:15px
+}
+.the-price .price button{
+    background-color:#fff;
+    color:#5a96da;
+    border:1px solid #999;
+    border-radius:5px;
+    padding:13px 25px;
+    margin-right:15px;
+    margin-top:15px;
+    font-weight:bold
+}
+/*end the pricing*/
+
+/*start the footer*/
+.the-footer{
+    overflow:hidden;
+    background-color:#1d2b36;
+    padding-top:60px;
+    margin-top:60px
+}
+.the-footer .footer{
+    width:30%;
+    float:left
+}
+.the-footer .footer img{
+    width:50px;
+}
+.the-footer .footer h2{
+    color:#fff;
+    padding-left:14px
+}
+.the-footer .the-table{
+    width:65%;
+    float:left;
+    margin-left:5%
+}
+.the-footer .the-table table .head{
+    color:#fff;
+    font-weight:bold;
+    padding-bottom:20px
+}
+.the-footer .the-table table td{
+    color:#84a195;
+    padding-right:40px;
+    padding-bottom:5px
+}
+.the-footer .the-table table td button{
+    background-color:#1087d8;
+    color:#fff;
+    border:1px #999;
+    border-radius:5px;
+    padding:2px 4px;
+    margin-right:10px;
+    margin-top:5px
+}
+.the-footer .media ul{
+    list-style:none;
+    padding-left:0px;
+    margin-top:40px;
+    margin-bottom:30px;
+    float:left;
+}
+.the-footer .media ul li{
+    display:inline-block
+}
+.the-footer .media ul li img{
+    width:34px
+}
+.the-footer .media p{
+    color:#fff;
+    float:right; 
+    margin-top:40px;
+}
+.the-footer .media p span{
+    color:#6395b0
+}
+/*end the footer*/
